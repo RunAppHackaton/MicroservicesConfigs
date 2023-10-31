@@ -24,7 +24,7 @@ spring:
       client:
         config:
           storage-service:
-            url: http://storage-service:6500
+            url: http://localhost:6500
 server:
   port: 9000
 management:
