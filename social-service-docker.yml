@@ -34,9 +34,7 @@ spring:
           starttls:
             enable: true
           auth: true
-    #    username: ${USERNAME}
-    #    password: ${PASSWORD}
-    username: runapp1234@gmail.com
-    password: qgcoclajkzvdwkcu
+        username: ${USERNAME}
+        password: ${PASSWORD}
 springdoc:
   packages-to-scan: com.runapp.socialservice
