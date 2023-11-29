@@ -16,7 +16,7 @@ management:
     health:
       show-details: always
 springdoc:
-  packagesToScan: com.runapp.achievementservice
+  packagesToScan: com.runapp.workoutservice
 
 eureka:
   client:
